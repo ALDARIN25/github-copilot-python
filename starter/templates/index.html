@@ -7,8 +7,26 @@
 </head>
 <body>
   <h1>Sudoku Game</h1>
+  <div id="timer-container">
+    <span id="timer">00:00</span>
+  </div>
   <div id="sudoku-board"></div>
+  <div class="hint-control-container">
+    <button id="check-puzzle">Check Puzzle</button>
+    <button id="hint">Hint</button>
+  </div>
+  <div id="leaderboard-section">
+    <h2>Top 10 Leaderboard</h2>
+    <div id="leaderboard"></div>
+  </div>
   <div class="controls">
+    <button id="theme-toggle">Dark Mode</button>
+    <label for="difficulty">Difficulty:</label>
+    <select id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium" selected>Medium</option>
+      <option value="hard">Hard</option>
+    </select>
     <button id="new-game">New Game</button>
     <button id="check-solution">Check Solution</button>
     <span id="message"></span>
