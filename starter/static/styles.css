@@ -280,3 +280,8 @@ body.dark #message {
 #leaderboard tr:nth-child(even) {
     background: #fafafa;
 }
+body.dark .sudoku-cell.incorrect {
+    background: #b71c1c;
+    color: #ffffff;
+    border: 2px solid #ff5252;
+}
