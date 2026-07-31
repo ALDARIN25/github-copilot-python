@@ -1,5 +1,6 @@
 from flask import Flask, render_template, jsonify, request
 import sudoku_logic
+import random
 
 app = Flask(__name__)
 
